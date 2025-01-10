@@ -11,6 +11,7 @@ data_file = pandas.read_csv("nato_phonetic_alphabet.csv")
 # use dictionary comprehension to create new dictionary with the letter as key and word as value
 # letter column is named letter
 # word column is named code
+# .iterrows() is used to iterate through each row
 nato_dict = {row.letter:row.code for (index, row) in data_file.iterrows()}
 
 # TODO 2. Create a list of the phonetic code words from a word that the user inputs.
