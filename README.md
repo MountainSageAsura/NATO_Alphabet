@@ -52,7 +52,6 @@ B, Bravo
 ...
 ```
 ## Future Improvements
-- Error handling for invalid characters in user input (non-alphabetic characters).
 - Adding functionality to handle multiple words or phrases input by the user.
 
 ## License
